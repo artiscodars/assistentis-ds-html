@@ -1,0 +1,343 @@
+﻿<html>
+<head>
+<title>ASSISTENTIS DIZAINA SISTĒMA</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<script src="../1b08ac9645.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="../css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" type="text/css" href="../npm/bootstrap%405.3.0-alpha3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../v/bs5/jszip-2.5.0/dt-1.11.3/b-2.0.1/b-colvis-2.0.1/b-html5-2.0.1/datatables.min.css">
+
+<link rel="stylesheet" href="../npm/select2%404.1.0-rc.0/dist/css/select2.min.css">
+<link rel="stylesheet" href="../npm/select2-bootstrap-5-theme%401.3.0/dist/select2-bootstrap-5-theme.min.css">
+
+<link rel="stylesheet" href="../npm/%40eonasdan/tempus-dominus%406.4.4/dist/css/tempus-dominus.min.css" crossorigin="anonymous">
+<link href="../tabulator-tables%404.1.4/dist/css/semantic-ui/tabulator_semantic-ui.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../fancybox/dist/jquery.fancybox.min.css">
+<link href="../style/style.min.css?v=202306021449" rel="stylesheet">
+</head>
+<body onload="checkCookie()">
+<div class="active-menu-bg"></div>
+<header>
+<div class="menu_opener"><span></span></div>
+<div class="app_title">
+<svg width="16" height="28" viewbox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 18.6444V0L16 9.38902V28L0 18.6444Z" fill="red"></path>
+</svg>
+<div class="system-title">
+ASSISTENTIS DIZAINA SISTĒMA
+<div class="subtitle">Info lodziņi </div>
+</div>
+</div>
+<div class="top_nav">
+<div class="company">
+<div class="toogler" id="companies" data-bs-toggle="dropdown" aria-expanded="false">
+<i class="fa-solid fa-house-medical"></i>
+<div class="title">
+Filiāle Maija | 2.kase
+<div class="subtitle">Saldus medicīnas centrs</div>
+</div>
+</div>
+</div>
+<div class="account">
+
+<div class="toogler active" id="account" data-bs-toggle="dropdown" aria-expanded="false">
+<span class="abr">MP</span>
+<div class="title">
+Maija Paija
+<div class="subtitle">Ārsta palīgs</div>
+</div>
+</div>
+<ul class="dropdown-menu" aria-labelledby="account">
+<li>
+<a class="dropdown-item" href="#">Nomainīt paroli</a>
+</li>
+</ul>
+</div>
+<a href="#" class="logout" data-bs-toggle="tooltip" data-bs-placement="left" title="Iziet">
+<i class="fa-solid fa-power-off"></i> <span>Iziet</span>
+</a>
+</div>
+<div class="top_nav_opener"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+</header>
+<div class="content-holder">
+<div class="left_menu">
+<div class="menu-holder-wrapper">
+<div class="menu-holder">
+<nav>
+<ul class="menu" id="menu">
+<li>
+<a href="../index.htm" class="topnav "><i class="fa-solid fa-house"></i>
+<txt>Ievads</txt>
+</a>
+</li>
+<li class="has-children"> <span data-bs-toggle="collapse" data-bs-target="#visparigi" class="collapsed" aria-expanded="false"><i class="fa-solid fa-house-laptop"></i>
+<txt>Vispārīgi</txt>
+</span>
+<ul id="visparigi" class="collapse " data-bs-parent="#menu">
+<li><a class="nav " href="../visparigi/index.htm">Ievads</a></li>
+<li><a class="nav " href="../visparigi/izkartojums.php.html">Izkārtojums</a></li>
+<li><a class="nav " href="../visparigi/krasas.php.html">Krāsas</a></li>
+<li><a class="nav " href="../visparigi/tipografija.php.html">Teksti</a></li>
+<li><a class="nav " href="../visparigi/ikonas.php.html">Ikonas</a></li>
+</ul>
+</li>
+<li class="has-children"> <span data-bs-toggle="collapse" data-bs-target="#komponentes" class="active" aria-expanded="false"><i class="fa-solid fa-puzzle-piece"></i>
+<txt>Komponentes</txt>
+</span>
+<ul id="komponentes" class="collapse show" data-bs-parent="#menu">
+<li><a class="nav " href="index.htm">Par komponentēm</a></li>
+<li class="has-children"><a class="nav " href="akordeoni.php.html">Akordeoni</a></li>
+<li class="has-children"><a class="nav " href="birkas.php.html">Birkas</a></li>
+<li class="has-children"><a class="nav " href="datu-ievades-laukums.php.html">Datu ievades laukums</a></li>
+<li class="has-children"><a class="nav " href="formas.php.html">Formas</a></li>
+<li class="has-children"><a class="nav " href="navigacija.php.html">Galvenā navigācija</a></li>
+<li class="has-children"><a class="nav " href="izlecosie-logi.php.html">Modālie logi</a></li>
+<li class="has-children"><a class="nav active" href="info-lodzini.php.html">Info lodziņi</a></li>
+<li class="has-children"><a class="nav " href="izlecosie-pazinojumi.php.html">Izlecošie paziņojumi</a></li>
+<li class="has-children"><a class="nav " href="izcelts-teksts.php.html">Izcelts teksts</a></li>
+<li class="has-children"><a class="nav " href="kajene.php.html">Kājene</a></li>
+<li class="has-children"><a class="nav " href="koks.php.html">Koka skata navigācija</a></li>
+<li class="has-children"><a class="nav " href="lapu-numeracija.php.html">Lapu numerācija</a></li>
+<li class="has-children"><a class="nav " href="mapes.php.html">Mapes</a></li>
+<li class="has-children"><a class="nav " href="navigacijas-cels.php.html">Navigācijas ceļš</a></li>
+<li class="has-children"><a class="nav " href="pazinojumi.php.html">Paziņojumi</a></li>
+<li class="has-children"><a class="nav " href="padomu-riki.php.html">Padomu rīki</a></li>
+<li class="has-children"><a class="nav " href="pogas.php.html">Pogas</a></li>
+<li class="has-children"><a class="nav " href="progresa-indikatori.php.html">Progresa indikātori</a></li>
+<li class="has-children"><a class="nav " href="saraksti.php.html">Saraksti</a></li>
+<li class="has-children"><a class="nav " href="tabulas.php.html">Tabulas</a></li>
+</ul>
+</li>
+<li class="has-children"> <span data-bs-toggle="collapse" data-bs-target="#piemeri" class="collapsed" aria-expanded="false"><i class="fa-solid fa-eye"></i>
+<txt>Piemēri</txt>
+</span>
+<ul id="piemeri" class="collapse " data-bs-parent="#menu">
+<li><a class="nav " href="../piemeri/index.htm">Par piemēriem</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="mini-menu-button set-cookie" onclick="setCookie('minimenu','on','1')">
+<i class="fa-solid fa-chevron-left"></i> <span>Sakļaut</span>
+</div>
+<div class="mini-menu-button unset-cookie" onclick="setCookie('minimenu','off','1')">
+<i class="fa-solid fa-chevron-right"></i> <span>Izvērst</span>
+</div>
+</div><div class="page_header">
+<div class="row g-0  align-items-center">
+<div class="col align-self-center"><h1>Info lodziņi </h1></div>
+</div>
+</div>
+<div class="content">
+<div class="container-fluid g-0">
+<div class="row">
+<div class="col">
+<p>
+Izvēloties izmantot izlecošos lodziņus ir jāņem vērā kurā vietā elements ar izlecošo lodziņu atrodas lapā. Ja elementa novietojums ir ekrāna labajā pusē, tad izlecošajam lodziņam ir jābūt pa kreisi.
+</p>
+<div class="alert alert-warning">
+Novieto elementus ar izlecošo lodziņu tā, lai tie vienmēr būtu pilnībā redzami.
+</div>
+<br>
+<h2>Info lodziņš ar virsrakstu</h2>
+<div class="bd-example">
+<button type="button" class="btn btn-lg btn-primary" data-bs-trigger="focus" data-bs-toggle="popover" title="Info lodziņa virsraksts" data-bs-content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit ac felis id viverra. Integer id lectus ultrices, faucibus ante sit amet, pulvinar metus. Aliquam pellentesque ut diam a sollicitudin. ">Uzspied,
+lai apskatītos info lodziņu</button>
+</div>
+<h2>Info lodziņš bez virsraksta un to novietojums pret pogu</h2>
+<div class="bd-example">
+<button type="button" class="btn btn-secondary" data-bs-trigger="focus" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Lodziņš pa labi">
+Pa labi
+</button>
+</div>
+<div class="bd-example">
+<button type="button" class="btn btn-secondary" data-bs-trigger="focus" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Lodziņš uz leju">
+Uz leju
+</button>
+</div>
+<div class="bd-example">
+<button type="button" class="btn btn-secondary" data-bs-trigger="focus" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Lodziņš pa kreisi">
+Pa kreisi
+</button>
+</div>
+<div class="bd-example">
+<button type="button" class="btn btn-secondary" data-bs-trigger="focus" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Lodziņš uz augšu">
+Uz augšu
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container-fluid">
+<div class="row d-flex justify-content-between">
+<div class="col-auto text-start">
+<span class="d-none d-md-inline"><img src="../piemeri/images/logo-1.png" class="logo"></span>
+<a href="tel:+37127500075"><i class="fa-solid fa-phone"></i> <span class="d-none d-md-inline">+371 27500075</span> </a>
+<a href="../cdn-cgi/l/email-protection.html#f7968395969b848384b79684849e84839299839e84d99b81"><i class="fa-solid fa-envelope"></i> <span class="d-none d-md-inline"><span class="__cf_email__" data-cfemail="b6d7c2d4d7dac5c2c5f6d7c5c5dfc5c2d3d8c2dfc598dac0">[email&#160;protected]</span></span></a>
+</div>
+<div class="col-auto text-end">© SIA ASSISTENTIS, 2021</div>
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+<script src="../jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+<script src="../ui/1.13.2/jquery-ui.js"></script>
+<script src="../js/datepicker-lv.js?v=202305021408"></script>
+<script src="../npm/%40popperjs/core%402.11.7/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="../npm/bootstrap%405.3.0-alpha3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<script src="../npm/select2%404.0.13/dist/js/select2.full.min.js"></script>
+<script src="../fancybox/dist/jquery.fancybox.min.js"></script>
+<script>
+
+$(function () {
+  $("#datepicker").datepicker($.extend({}, $.datepicker.regional["lv"], {
+    showButtonPanel: true,
+  }));
+});
+
+
+ 
+
+
+
+ 
+  </script>
+<script>
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+});
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl);
+});
+$(".mini-menu-button").click(function(e) {
+    //e.preventDefault();
+    $("body").toggleClass("mini-menu");
+});
+$(".mini-menu-button.set-cookie").click(function(e) {
+    //e.preventDefault();
+    $(".has-children span.active").next().removeClass("show");
+});
+$(".mini-menu-button.unset-cookie").click(function(e) {
+    //e.preventDefault();
+    $(".has-children span.active").next().addClass("show");
+});
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function checkCookie() {
+    var user = getCookie("minimenu");
+    if (user == "on") {
+        $("body").addClass("mini-menu");
+    }
+    /*else {
+        user = prompt("Please enter your name:", "");
+        if (user != "" && user != null) {
+            setCookie("username", user, 30);
+        }
+    }*/
+}
+
+$(function(){
+$('.mini-menu-button').click(function(){
+$('body').toggleClass('transformer');
+setTimeout(function() {
+$('body').removeClass('transformer');
+}, 1000);
+});
+});
+
+/*
+$(document).click(function(e) {
+	if (!$(e.target).is('.mini-menu')) {
+    	$('.show').collapse('hide');
+    }
+});*/
+
+
+$(".mini-menu").click(function() {
+
+//  $("span").attr('aria-expanded', true).setAttribute('aria-expanded', 'false');
+$(".show").prev().attr('aria-expanded', 'false').toggleClass("collapsed");
+$(".show").toggleClass("show");
+});
+
+
+
+$(".menu_opener").click(function() {
+  $("body").toggleClass("mobmenu");
+
+  });
+
+
+  $(".top_nav_opener").click(function() {
+    $("body").toggleClass("mob_user_menu");
+    });
+
+  $(".active-menu-bg").click(function()  {
+    $("body").toggleClass("mobmenu");
+
+    });
+
+
+
+$(".left_menu").scroll(function() {
+  sessionStorage.scrollTop = $(this).scrollTop();
+});
+
+$(document).ready(function() {
+  if (sessionStorage.scrollTop != "undefined") {
+    $(".left_menu").scrollTop(sessionStorage.scrollTop);
+  }
+});
+
+
+ //select 2
+
+
+ $("#exampleSelect2").select2({
+  theme: "bootstrap-5",
+    width: $( this ).data( 'width' ) ? $( this ).data( 'width' ) : $( this ).hasClass( 'w-100' ) ? '100%' : 'style',
+    placeholder: $( this ).data( 'placeholder' ),
+});
+
+
+
+</script>
+</html>
